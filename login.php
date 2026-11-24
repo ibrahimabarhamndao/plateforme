@@ -141,12 +141,12 @@ if ($user && password_verify($password, $user['password'])) {
             <form action="login.php" method="POST">
                 <div class="form-group">
                     <label for="email">IDENTIFIANT / LOGIN</label>
-                    <input type="text" id="email" name="email" required placeholder="secretaire" autocomplete="off">
+                    <input type="text" id="email" name="email"  placeholder="secretaire" autocomplete="off">
                 </div>
 
                 <div class="form-group">
                     <label for="password">MOT DE PASSE</label>
-                    <input type="password" id="password" name="password" required placeholder="........" autocomplete="new-password">
+                    <input type="password" id="password" name="password"  placeholder="........" autocomplete="new-password">
                 </div>
 
                 <button type="submit" class="btn-submit">Se connecter &rarr;</button>
